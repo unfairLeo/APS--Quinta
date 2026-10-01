@@ -1,11 +1,16 @@
+// IMPORTANDO
 import express from "express";
 import cors from "cors";
 import { supabase } from "./config/supabase";
+import planRoutes from "./routes/planRoutes";
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+// USANDO ROTAS
+app.use("/plans", planRoutes);
+
 
 app.get("/", (req, res) => {
   res.json({ message: "API de Planos e Assinaturas funcionando" });
