@@ -2,7 +2,7 @@
 import {Router} from "express";
 import * as planController from "../controllers/PlanController";
 
-//CRINDO AS ROTAS DA API - VAMOS USAR O EXPRESS
+//CRIANDO AS ROTAS DA API - VAMOS USAR O EXPRESS
 const router = Router() 
 
 // UTILIZANDO METODOS - DADOS VINDO DE REPOSITORY(ROTAS REPRESENTANDO O CRUD)
