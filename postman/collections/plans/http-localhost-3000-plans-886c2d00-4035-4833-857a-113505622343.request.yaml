@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:3000/plans/886c2d00-4035-4833-857a-113505622343
+description: ""
+url: http://localhost:3000/plans/886c2d00-4035-4833-857a-113505622343
+method: DELETE
+order: 4449213598865343

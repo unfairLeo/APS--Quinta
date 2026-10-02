@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://localhost:3000/plans
+description: ""
+url: http://localhost:3000/plans
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Plus\",\r
+
+    \  \"description\": \"Plano plus ultra\",\r
+
+    \  \"price\": 360.00,\r
+
+    \  \"monthly_token_limit\": 190000000,\r
+
+    \  \"active\": true\r
+
+    }"
+order: 4135308371525666

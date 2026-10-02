@@ -1,0 +1,9 @@
+$kind: http-request
+name: http://localhost:3000/plans/da3d363b-452f-4ede-be8d-9e2adb5b31bf
+description: ""
+url: http://localhost:3000/plans/da3d363b-452f-4ede-be8d-9e2adb5b31bf
+method: PUT
+body:
+  type: json
+  content: '{ "name": "Plus", "active": true }'
+order: 4173852983522755
